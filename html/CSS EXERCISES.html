@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<style>
+    .Request{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        transition: opacity 0.5s;
+    }
+    /**Changed opacity when hovered on**/
+    .Request:hover{
+        opacity: 0.8;
+    }
+
+    .Add{
+        background-color: yellow;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border: none;
+        border-radius: 17px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 15px;
+        transition: background-color 0.5s;
+    }
+
+    /**Changed background color when hovered on**/
+    .Add:hover{
+        background-color: rgb(247, 247, 20);
+    }
+
+    .Sign{
+        background-color: rgb(34, 141, 64);
+        border: none;
+        padding: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-left: 5px;
+        text-decoration: none;
+        color: white;
+        margin-left: 15px;
+        transition: box-shadow 0.5s, background-color 0.5s;
+    }
+
+    /**Cast a little shadow when hovered on**/
+    .Sign:hover{
+        box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.1);
+        background-color: rgb(48, 99, 62);
+    }
+
+    .Get{
+        margin-top: 20px;
+        padding: 14px;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        background-color: rgb(121,82,179);
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.5s;
+    }
+
+    /**Changed background color when hovered on**/
+    .Get:hover{
+        background-color: rgb(99, 56, 163);
+    }
+
+    
+    .Download{
+        margin-top: 20px;
+        padding: 13px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 15px;
+        border: solid;
+        background-color: white;
+        color: rgb(108,117,125);
+        border-radius: 5px;
+        border-color:rgb(108,117,125);
+        border-width: 1px;
+        margin-left: 7px;
+        transition: background-color 0.5s,color 0.5s;
+    }
+
+    /**Reverse the text and background color when hovered on**/
+    .Download:hover{
+        background-color: rgb(108,117,125);
+        color: white;
+    }
+
+    .Apply{
+        margin-top: 20px;
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        background-color: rgb(10,102,194);
+        border: none;
+        color: white;
+        border-radius: 25px;
+        font-size: medium;
+        font-weight: bold;
+        transition: background-color 0.5s;
+    }
+
+    /**Give out a bit of darker color when hovered on**/
+    .Apply:hover{
+        background-color: rgb(13, 93, 173);
+
+    }
+
+    
+    .Save{
+        margin-top: 20px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+        border: solid;
+        color: rgb(10,102,194);
+        border-radius: 25px;
+        font-size: medium;
+        font-weight: bold;
+        border-width: 1px;
+        margin-left: 10px;
+        transition: border-width 0.2s, background-color 0.5s;
+    }
+
+    .Save:hover{
+        border-width: 2px;
+        background-color: rgb(244, 244, 245);
+        cursor: pointer;
+    }
+
+
+    .email{
+        margin-left: 15px;
+        border-radius: 13px;
+        border: none;
+        background-color: darkgreen;
+        font-weight: bold;
+        color:white;
+        text-decoration: none;
+        /**I used padding to give space inside the hyperlink element**/
+        padding: 10px;
+        transition: box-shadow 0.3s;
+    }
+
+    /**unsolved matter is here**/
+    .email:hover{
+        color: darkgreen;
+        border: solid 1px darkgreen;
+        background-color: white;
+        box-shadow: inset 2px 3px 6px rgba(255, 255, 255, 0.4), 4px 6px 7px rgba(0, 0, 0, 0.2);
+    }
+
+    .Stretch{
+        padding: 10px 15px;
+        background-color: rgb(99, 145, 243);
+        color: white;
+        border: none;
+        transition: padding,0.5s;
+    }
+
+    .Stretch:hover{
+        padding: 20px 30px;
+    }
+
+    .back{
+        padding: 10px 25px ;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .next{
+        padding: 10px 25px ;
+        border: none;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+</style>
+
+    <body>
+        <button class="Request";>Request now</button>
+        <button class="Add">Add to Cart</button>
+            <a href="https://web.facebook.com/?stype=lo&deoia=1&jlou=AfdUvMXPG0qb0rTduZv8amXCSYZzVoJPP6sR7P7Z4YNpPaLxG8waxPL-
+            RFNQzmIo0qoTwTO253wRf9HlVDcznRtFwlLNu8OvsA1UCzRXrgLRQ&smuh=29627&lh=Ac9vyhyh5LcHLKzjQKk" class="Sign" target="_self">
+            Sign up
+            </a><br>
+        <button class="Get">Get started</button>
+        <button class="Download">Download</button><br>
+        <button class="Apply">Apply on company website</button>
+        <button class="Save">Save</button>
+        <!--using the "mailto:" inside the href attribute to send mail to someone-->
+        <a href="mailto:abdurahmonabdullah247@gmail.com" class="email" target="_blank">Send us an email</a>
+        <p><b>To know everything about the cat below, make a click on it:</b></p>
+        <p>
+            <button class="Stretch">Stretch</button><br>
+            <button class="back">Back</button>
+            <a href="" style="margin-left: 10px;">1</a>
+            <a href="" style="margin-left: 10px;">2</a>
+            <a href="" style="margin-left: 10px;">3</a>
+            <a href="" style="margin-left: 10px;">4</a>
+            <a href="" style="margin-left: 10px;">5</a>
+            <button class="next">Next</button>
+
+
+
+
+        </p>
+
+    </body>
