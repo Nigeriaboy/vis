@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image mapping</title>
+    <link rel="stylesheet" href="mapping.css">
+
+   
+</head>
+<body>
+   <p class="head">
+        IMAGE MAPPING IN HTML
+    </p>
+    <div class="center">
+
+        <div style="display: inline-block;">
+            <img src="vin-and-paul.jpg" usemap="#image-map" class="image">
+
+            <map name="image-map">
+                <area target="_blank" alt="Diesel" title="Click to know more about Vin_Diesel" href="https://en.wikipedia.org/wiki/Vin_Diesel" 
+                    coords="209,48,230,31,282,39,303,91,319,138,373,165,373,249,161,249,172,183,237,154,213,111,204,78,206,62,206,54" shape="poly">
+                <area target="_blank" alt="Walker" title="Click to know more about Paul_walker" href="https://en.wikipedia.org/wiki/Paul_walker" 
+                    coords="0,144,63,116,58,64,63,57,65,20,99,6,121,9,145,26,147,67,143,83,125,123,150,143,201,170,173,182,159,249,0,248" shape="poly">
+            </map>
+            <p>
+                Paul_walker and Vin_Diesel
+            </p>
+        </div>
+
+        <div class="textunderpic">
+            <img src="obama and biden.jpg" alt="Obama_and_Biden" usemap="#president">
+
+            <map name="president">
+                <area shape="poly"  alt="president Obama" title="Click to know more about president Barrack Obama" href="https://en.wikipedia.org/wiki/Barack_Obama" target="_blank"
+                    coords="106,249,111,156,164,121,158,99,146,88,132,86,129,61,133,24,155,-1,196,3,208,38,221,46,217,63,209,90,250,111,248,249" >
+                <area shape="poly"  alt="president Biden" title="Click to know more about president Joe Biden" href="https://en.wikipedia.org/wiki/Joe_Biden" target="_blank"
+                    coords="40,55,67,41,93,47,106,57,111,92,112,108,123,139,127,143,120,151,112,158,110,184,107,210,106,232,105,248,3,249,12,185,45,162,65,149,54,129,45,120,39,104,35,74,36,63" >
+            </map>
+            <p class="text">
+                President Joe_Biden and Barack_Obama
+            </p>
+        </div>
+
+        <div class="good">
+            <img src="abdullah.jpg" alt="abdullah" class="abdullah">
+            <p class="txt">Abdullah is a good Boy djfkljfldflkdfjkljdfkljdfkljdf</p>
+        </div> 
+    </div>
+    
+
+   
+</body>
+</html>

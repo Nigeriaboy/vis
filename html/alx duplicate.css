@@ -1,13 +1,16 @@
 html, body{
     margin: 0;
 }
-
+t
 div{
     background-color: rgb(235, 234, 234);
     padding-top: 1px;
     padding-left: 15px;
     padding-bottom: 1px;
     border-bottom: solid 1px rgb(161, 161, 161);
+}
 
+.menu{
+    margin-right:px;
 }
 
