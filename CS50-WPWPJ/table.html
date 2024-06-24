@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table,th,td{
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+
+        }
+
+        table{
+            width: 100%;
+        }
+
+        th{
+            text-align: left;
+        }
+
+        .age{
+            background-color: rgb(223, 142, 95);
+        }
+
+        .name{
+            background-color: rgb(202, 255, 237);
+            font-weight: bold;
+            font-family:Cambria;
+        }
+
+        .gender{
+            font-family: cambria;
+            background-color: rgb(0, 195, 255);
+
+        }
+
+        .surname{
+            font-family: cambria;
+            font-weight: bold;
+            background-color: rgb(224, 143, 200);
+        }
+
+        caption{
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>BRIEF INFORMATION ABOUT MY SIBLINGS</caption>
+        <thead>
+            <!--to add two or more columns under one header use the 'colspan attribute'-->
+            <th colspan="2" style="text-align: center;">NAME</th>
+            <th>AGE</th>
+            <th>GENDER</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="name">ABDULLAH</td>
+                <td class="surname">ABDURAHMON</td>
+                <td class="age">18</td>
+                <td class="gender">MALE</td>
+            </tr>
+            <tr>
+                <td class="name">USMAN</td>
+                <td class="surname">ABDURAHMON</td>
+                <td class="age">16</td>
+                <td class="gender">MALE</td>
+            </tr>
+            <tr>
+                <td class="name">TAIYE</td>
+                <td class="surname">ABDURAHMON</td>
+                <td class="age">13</td>
+                <td class="gender">MALE</td>
+            </tr>
+            <tr>
+                <td class="name">KEHINDE</td>
+                <td class="surname">ABDURAHMON</td>
+                <td class="age">13</td>
+                <td class="gender">MALE</td>
+            </tr>        
+        </tbody>
+    </table>
+</body>
+</html>
