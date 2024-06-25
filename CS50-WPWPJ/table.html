@@ -6,21 +6,27 @@
     <title>Table</title>
 
     <style>
-        table,th,td{
+       /** table,th,td{
             border: 1px solid rgb(0, 0, 0);
             border-collapse: collapse;
 
-        }
+        }**/
 
         table{
             width: 100%;
+        }
+
+        /**To get a Zebra striped table like**/
+        tr:nth-child(even){
+            background-color: black;
+            color: white;
         }
 
         th{
             text-align: left;
         }
 
-        .age{
+        /**.age{
             background-color: rgb(223, 142, 95);
         }
 
@@ -40,11 +46,17 @@
             font-family: cambria;
             font-weight: bold;
             background-color: rgb(224, 143, 200);
-        }
+        }**/
 
         caption{
             margin-bottom: 10px;
             font-weight: bold;
+        }
+
+        /**Creating hoverable table style**/
+        tr:hover{
+            background-color: rgb(10, 62, 107);
+            color: white;
         }
     </style>
 </head>
