@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Header{
+    text-align: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+h1{
+
+    margin-bottom: 0;
+}
+
+p{  
+    margin-top: 0;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+form{
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 35px;
+    margin-top: 10px;
+    width: 350px;
+    height: 40px;
+}
+
+textarea{
+    margin-bottom: 35px;
+    margin-top: 10px;
+    width: 350px;
+    height: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::placeholder{
+    font-size: 15px;
+}
