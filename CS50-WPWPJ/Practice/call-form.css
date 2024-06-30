@@ -3,7 +3,7 @@ body{
     background-color: rgb(246, 248, 250);
 }
 
-.Header{
+header{
     text-align: center;
 }
 .form-container{
@@ -31,21 +31,15 @@ form{
     font-weight: bold;
 }
 
-input{
+input,textarea{
     margin-bottom: 35px;
     margin-top: 10px;
     width: 350px;
     height: 40px;
 }
 
-input:focus{
-    border: 1px solid black;
-}
 
 textarea{
-    margin-bottom: 35px;
-    margin-top: 10px;
-    width: 350px;
     height: 140px;
     font-family: Arial, Helvetica, sans-serif;
 }
