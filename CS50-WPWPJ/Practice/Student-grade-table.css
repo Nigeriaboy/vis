@@ -1,0 +1,40 @@
+body{
+    font-family: arial;
+    background-color: rgb(224, 248, 240);
+}
+table{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+div{
+    margin: auto;
+    margin-top: 70px;
+
+}
+p{
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    max-width:700px;
+    line-height: 70px;
+    color: rgb(21, 150, 107);
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 1px 10px;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    background-color: rgb(21, 150, 107);
+}
+
