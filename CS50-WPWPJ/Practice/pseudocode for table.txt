@@ -1,0 +1,12 @@
+Pseudocode for creating a student grade table
+
+1.	let everything be at the middle
+
+2.	create description
+
+3.	create a container that will contain the table
+
+4.	create the table
+
+5.	give the table some padding for 
+	more space inside the container
