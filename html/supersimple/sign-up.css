@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(173, 173, 168);
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    margin-top: 30vh;
+    box-shadow: 7px 9px 10px rgba(0, 0, 0, 0.3);
+}
+
+img{
+    width: 100px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span{
+    background-color: rgb(173, 173, 168);
+
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+}
+
+input{
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 12px;
+}
+
+.name{
+    width: 100px;
+}
+
+.email, .submit{
+    width: 235px;
+    margin-top: 7px;
+}
+
+.submit{
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(0, 76, 241);
+}
+
+.submit::placeholder{
+    color: white;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
