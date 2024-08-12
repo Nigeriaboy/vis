@@ -1,0 +1,75 @@
+*:not(.glitter){
+    font-family: roboto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1{
+    margin-top: 80px;
+    color: rgb(213, 213, 218); ;
+}
+
+div{
+    margin-bottom: 1000px;
+    margin: 0 auto;
+    width: 470px;
+    height: 900px;
+    background-color: rgb(232, 232, 238);
+    padding-top: 1px;
+    transform: scale(0.6);
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+p{
+    font-weight: bolder;
+}
+.purchase{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+img{
+    width: 300px;
+    position: relative;
+}
+
+.glitter{
+    position: absolute;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.transact{
+    margin-top: 0px auto;
+    font-size: 13px;
+    color: rgb(1, 82, 1);
+}
+
+.approved{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.naira{
+    font-size: 27px;
+}
+
+.box{
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    padding: 22px;
+    margin: 0 auto;
+    border-radius: 8px;
+
+}
+
+.receipt{
+    background-color: white;
+    margin-top: 100px;
+}
+
+.home{
+    background-color: rgb(221, 67, 21);
+    margin-top: 20px;
+    color: white;
+}
