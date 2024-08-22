@@ -16,13 +16,21 @@ span{
 
 .container{
     display: flex;
+    border-radius: 5pxs;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    align-items: center;
+    transform: scale(0.7);
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
 }
 img{
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 200%;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 
@@ -38,12 +46,13 @@ h6{
 button{
     width: 85px;
     height: 35px;
-    margin-top: 38px;
-    margin-left: 150px;
+    margin-left: 100px;
     border: none;
     border-radius: 30px;
     background-color: #4ba7f3;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 15px;
     color: white;
+    letter-spacing: 1px;
 }
